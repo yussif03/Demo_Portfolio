@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yussif Mohamed - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <a href="index.html" class="logo-text" id="nav-name"
+            >Yussif Mohamed</a
+          >
+        </div>
+        <div class="nav-menu" id="nav-menu">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#expertise" class="nav-link">Expertise</a>
+          <a href="#experience" class="nav-link">Experiences</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="nav-toggle" id="nav-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- Hero Section -->
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <h1 class="hero-name" id="name">Hi, I'm Yussif</h1>
+          <h2 class="hero-title" id="title">Full Stack .Net Core Developer</h2>
+          <p class="hero-bio" id="bio">
+            I specialize in building full-stack web applications that are fast,
+            reliable, and user-friendly. With a solid foundation in both
+            frontend and backend technologies, I help bring ideas to life
+            whether it's for a business, a startup, or a product team.
+          </p>
+          <a
+            href="#contact"
+            class="btn hero-btn project-link secondary"
+            style="width: fit-content"
+          >
+            <i class="fa-solid fa-share"></i>
+            Contact
+          </a>
+          <!-- <p class="hero-experience" id="experience">Previously worked at <span class="highlight">[Company 1]</span> and <span class="highlight">[Company 2]</span></p> -->
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills" id="skills">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid" id="skills-grid">
+          <div class="skill-item">HTML5</div>
+          <div class="skill-item">CSS3</div>
+          <div class="skill-item">Responsive Design</div>
+          <div class="skill-item">Bootstrap</div>
+          <div class="skill-item">Git</div>
+          <div class="skill-item">GitHub</div>
+          <div class="skill-item">JavaScript</div>
+          <div class="skill-item">React JS</div>
+          <div class="skill-item">C#</div>
+          <div class="skill-item">.NET Core</div>
+          <div class="skill-item">Microsoft SQL Server</div>
+        </div>
+      </section>
+
+      <!-- Expertise Sections -->
+      <section class="expertise" id="expertise">
+        <h2 class="section-title">Expertise</h2>
+        <div class="expertise-grid">
+          <div class="expertise-card" id="frontend-card">
+            <h3 class="card-title" id="frontend-title">Frontend Development</h3>
+            <ul class="card-list" id="frontend-items">
+              <li>Modern React Architecture</li>
+              <li>Responsive & Interactive UIs</li>
+              <li>Web Accessibility</li>
+            </ul>
+          </div>
+
+          <div class="expertise-card" id="backend-card">
+            <h3 class="card-title" id="backend-title">Backend Development</h3>
+            <ul class="card-list" id="backend-items">
+              <li>API Design & Development</li>
+              <li>Database Architecture</li>
+              <li>Scalable Microservices Architecture</li>
+            </ul>
+          </div>
+
+          <div class="expertise-card" id="devops-card">
+            <h3 class="card-title" id="devops-title">Performance & SEO</h3>
+            <ul class="card-list" id="devops-items">
+              <li>Website Performance Optimization</li>
+              <li>SEO Best Practices</li>
+              <li>Page Speed Optimization</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="expertise" id="experience">
+        <h2 class="section-title">Experiences</h2>
+        <div
+          class="expertise-grid experience-grid d-flex justify-content-center"
+        >
+          <div class="expertise-card" id="frontend-card" style="width: 400px">
+            <h3 class="card-title" id="frontend-title">SEF Academy</h3>
+            <ul class="card-list" id="frontend-items">
+              <li>Frontend</li>
+              <li>HTML, CSS, Bootstrap, JavaScript</li>
+              <li>2025 - Ongoing</li>
+            </ul>
+          </div>
+
+          <div class="expertise-card" id="backend-card" style="width: 400px">
+            <h3 class="card-title" id="backend-title">DEPI</h3>
+            <ul class="card-list" id="backend-items">
+              <li>Full Stack .Net Core</li>
+              <li>C#, .Net Core, MS SQL Server</li>
+              <li>2025 - Ongoing</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <!-- E-commerce Dashboard Project -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="/images/img1.jpg" alt="" style="width: 100%" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">
+                E-Commerce Accessories Website (Frontend Project)
+              </h3>
+              <p class="project-description">
+                This project is a responsive, user-friendly online store
+                designed specifically for selling fashion accessories such as
+                watches, jewelry, and bags. The frontend is built with HTML5,
+                CSS3, and JavaScript to deliver a modern shopping experience
+                that works seamlessly across devices.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">Bootstrap</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="" class="btn project-link secondary" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-github"></i>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Social Media App Project -->
+          <div class="project-card">
+            <div class="project-image">
+              <!-- <i class="fas fa-comments"></i> -->
+              <img src="/images/img2.jpg" alt="" style="width: 100%" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">
+                E-Commerce Hoodie Store (Frontend Project)
+              </h3>
+              <p class="project-description">
+                A simple and stylish e-commerce website layout built entirely
+                with HTML and CSS, showcasing hoodies in a clean and modern
+                design. The project demonstrates responsive web design
+                principles with product cards, pricing sections, and category
+                layouts that adapt across desktop, tablet, and mobile screens.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://yussif03.github.io/Project-2-SEF/" class="btn project-link secondary" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-github"></i>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact" id="contact">
+        <div class="contact-content">
+          <h2 class="contact-headline">
+            Let's Create Amazing Digital Experiences
+          </h2>
+          <p class="contact-description">
+            Ready to bring your project to life?
+          </p>
+          <div class="contact-location">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Alexandria, Egypt</span>
+          </div>
+          <div class="contact-buttons">
+            <button class="btn btn-primary">
+              <i class="fas fa-envelope"></i>
+              Get in Touch
+            </button>
+            <button class="btn project-link secondary">
+              <i class="fas fa-file-alt"></i>
+              View Resume
+            </button>
+          </div>
+          <div class="contact-social">
+            <a href="https://github.com/yussif03" class="social-link" target="_blank" rel="noopener noreferrer"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/yussif-abdelmaqsoud/"
+              class="social-link"
+              target="_blank" rel="noopener noreferrer"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/yussif_abdelmaqsoud/"
+              class="social-link"
+              target="_blank" rel="noopener noreferrer"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
